@@ -376,10 +376,10 @@ adb shell /data/local/tmp/ghostlock
 4. 推送并创建 PR
 5. 等待代码审查
 
-参考 [贡献指南](/contributing) 了解更多信息。
+参考 [贡献指南]({% link contributing.md %}) 了解更多信息。
 
 ## 相关链接
 
-- [支持的设备](/devices)
-- [编译指南](/compilation)
-- [工具脚本](/tools)
+- [支持的设备]({% link devices.md %})
+- [编译指南]({% link compilation.md %})
+- [工具脚本]({% link tools.md %})

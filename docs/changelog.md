@@ -81,4 +81,4 @@ description: GhostLock 项目的版本历史和更新记录
 
 - [GitHub Releases](https://github.com/wzhdgithub/GhostLock/releases)
 - [项目主页](https://github.com/wzhdgithub/GhostLock)
-- [安全政策](/security)
+- [安全政策]({% link security.md %})

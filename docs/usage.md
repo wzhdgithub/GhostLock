@@ -108,7 +108,7 @@ python3 tools/btf_structs2.py > structs.txt
 
 ### 添加新设备支持
 
-参考 [添加新设备](/add-device) 指南。
+参考 [添加新设备]({% link add-device.md %}) 指南。
 
 ### 调试模式
 
@@ -206,7 +206,7 @@ done
 
 ## 相关链接
 
-- [快速开始](/quickstart)
-- [漏洞分析](/vulnerability)
-- [利用原理](/exploitation)
-- [设备支持](/devices)
+- [快速开始]({% link quickstart.md %})
+- [漏洞分析]({% link vulnerability.md %})
+- [利用原理]({% link exploitation.md %})
+- [设备支持]({% link devices.md %})

@@ -220,6 +220,6 @@ adb shell /data/local/tmp/ghostlock
 
 ## 相关链接
 
-- [添加新设备](/add-device)
-- [编译指南](/compilation)
-- [支持的设备](/devices)
+- [添加新设备]({% link add-device.md %})
+- [编译指南]({% link compilation.md %})
+- [支持的设备]({% link devices.md %})
