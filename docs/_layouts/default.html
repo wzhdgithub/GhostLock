@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} - GhostLock</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- 左侧边栏 -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h1 class="project-title">GhostLock</h1>
+                <p class="project-subtitle">CVE-2026-43499</p>
+            </div>
+            
+            <nav class="sidebar-nav">
+                <div class="nav-section">
+                    <h3 class="nav-title">快速开始</h3>
+                    <ul class="nav-list">
+                        <li><a href="{{ '/' | relative_url }}" class="{% if page.url == '/' %}active{% endif %}">项目介绍</a></li>
+                        <li><a href="{{ '/quickstart' | relative_url }}" class="{% if page.url == '/quickstart/' %}active{% endif %}">快速开始</a></li>
+                        <li><a href="{{ '/usage' | relative_url }}" class="{% if page.url == '/usage/' %}active{% endif %}">使用指南</a></li>
+                    </ul>
+                </div>
+                
+                <div class="nav-section">
+                    <h3 class="nav-title">技术文档</h3>
+                    <ul class="nav-list">
+                        <li><a href="{{ '/vulnerability' | relative_url }}" class="{% if page.url == '/vulnerability/' %}active{% endif %}">漏洞分析</a></li>
+                        <li><a href="{{ '/exploitation' | relative_url }}" class="{% if page.url == '/exploitation/' %}active{% endif %}">利用原理</a></li>
+                        <li><a href="{{ '/internals' | relative_url }}" class="{% if page.url == '/internals/' %}active{% endif %}">内部机制</a></li>
+                    </ul>
+                </div>
+                
+                <div class="nav-section">
+                    <h3 class="nav-title">设备支持</h3>
+                    <ul class="nav-list">
+                        <li><a href="{{ '/devices' | relative_url }}" class="{% if page.url == '/devices/' %}active{% endif %}">支持的设备</a></li>
+                        <li><a href="{{ '/add-device' | relative_url }}" class="{% if page.url == '/add-device/' %}active{% endif %}">添加新设备</a></li>
+                    </ul>
+                </div>
+                
+                <div class="nav-section">
+                    <h3 class="nav-title">开发</h3>
+                    <ul class="nav-list">
+                        <li><a href="{{ '/compilation' | relative_url }}" class="{% if page.url == '/compilation/' %}active{% endif %}">编译指南</a></li>
+                        <li><a href="{{ '/tools' | relative_url }}" class="{% if page.url == '/tools/' %}active{% endif %}">工具脚本</a></li>
+                        <li><a href="{{ '/contributing' | relative_url }}" class="{% if page.url == '/contributing/' %}active{% endif %}">贡献指南</a></li>
+                    </ul>
+                </div>
+                
+                <div class="nav-section">
+                    <h3 class="nav-title">资源</h3>
+                    <ul class="nav-list">
+                        <li><a href="{{ '/changelog' | relative_url }}" class="{% if page.url == '/changelog/' %}active{% endif %}">更新日志</a></li>
+                        <li><a href="{{ '/security' | relative_url }}" class="{% if page.url == '/security/' %}active{% endif %}">安全政策</a></li>
+                        <li><a href="{{ '/code-of-conduct' | relative_url }}" class="{% if page.url == '/code-of-conduct/' %}active{% endif %}">行为准则</a></li>
+                        <li><a href="https://github.com/wzhdgithub/GhostLock" target="_blank">GitHub 仓库</a></li>
+                    </ul>
+                </div>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <p>作者: <strong>wzh</strong></p>
+                <p>联系: <a href="mailto:yjhsbwssg@163.com">yjhsbwssg@163.com</a></p>
+            </div>
+        </aside>
+        
+        <!-- 右侧主内容 -->
+        <main class="main-content">
+            <header class="content-header">
+                <h1>{{ page.title }}</h1>
+                {% if page.description %}
+                <p class="content-description">{{ page.description }}</p>
+                {% endif %}
+            </header>
+            
+            <article class="content-body">
+                {{ content }}
+            </article>
+            
+            <footer class="content-footer">
+                <p>最后更新: {{ site.time | date: "%Y年%m月%d日" }}</p>
+            </footer>
+        </main>
+    </div>
+</body>
+</html>

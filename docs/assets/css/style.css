@@ -1,0 +1,566 @@
+/* GhostLock 文档网站样式 */
+
+/* 基础重置 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 字体设置 */
+body {
+    font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+}
+
+/* 容器布局 */
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* 侧边栏样式 */
+.sidebar {
+    width: 280px;
+    background-color: #f8f9fa;
+    border-right: 1px solid #e9ecef;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.sidebar-header {
+    padding: 20px;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.project-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #212529;
+    margin-bottom: 5px;
+}
+
+.project-subtitle {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+/* 导航样式 */
+.sidebar-nav {
+    flex: 1;
+    padding: 20px 0;
+    overflow-y: auto;
+}
+
+.nav-section {
+    margin-bottom: 24px;
+}
+
+.nav-title {
+    font-size: 12px;
+    font-weight: 600;
+    color: #495057;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 0 20px;
+    margin-bottom: 8px;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-list li {
+    margin: 0;
+}
+
+.nav-list a {
+    display: block;
+    padding: 8px 20px;
+    color: #495057;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.2s ease;
+    border-left: 3px solid transparent;
+}
+
+.nav-list a:hover {
+    background-color: #e9ecef;
+    color: #212529;
+}
+
+.nav-list a.active {
+    background-color: #e3f2fd;
+    color: #1976d2;
+    border-left-color: #1976d2;
+    font-weight: 500;
+}
+
+/* 侧边栏页脚 */
+.sidebar-footer {
+    padding: 20px;
+    border-top: 1px solid #e9ecef;
+    font-size: 12px;
+    color: #6c757d;
+}
+
+.sidebar-footer p {
+    margin-bottom: 4px;
+}
+
+.sidebar-footer a {
+    color: #1976d2;
+    text-decoration: none;
+}
+
+.sidebar-footer a:hover {
+    text-decoration: underline;
+}
+
+/* 主内容区域 */
+.main-content {
+    flex: 1;
+    margin-left: 280px;
+    padding: 40px 60px;
+    max-width: 900px;
+}
+
+/* 内容头部 */
+.content-header {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.content-header h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #212529;
+    margin-bottom: 12px;
+}
+
+.content-description {
+    font-size: 16px;
+    color: #6c757d;
+    line-height: 1.6;
+}
+
+/* 内容主体 */
+.content-body {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.content-body h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #212529;
+    margin: 40px 0 20px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.content-body h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #495057;
+    margin: 30px 0 15px 0;
+}
+
+.content-body h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #495057;
+    margin: 24px 0 12px 0;
+}
+
+.content-body p {
+    margin-bottom: 16px;
+    color: #333;
+}
+
+/* 链接样式 - 绿色 */
+.content-body a {
+    color: #00aa00;
+    text-decoration: none;
+}
+
+.content-body a:hover {
+    text-decoration: underline;
+}
+
+/* 列表样式 */
+.content-body ul,
+.content-body ol {
+    margin: 16px 0;
+    padding-left: 24px;
+}
+
+.content-body li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+.content-body ul li {
+    list-style-type: disc;
+}
+
+.content-body ol li {
+    list-style-type: decimal;
+}
+
+/* 代码块样式 - 灰色背景 */
+.content-body code {
+    font-family: 'JetBrains Mono', 'Consolas', monospace;
+    font-size: 14px;
+    background-color: #f5f5f5;
+    padding: 2px 6px;
+    border-radius: 3px;
+    color: #c7254e;
+}
+
+.content-body pre {
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 4px;
+    padding: 16px;
+    overflow-x: auto;
+    margin: 16px 0;
+    font-family: 'JetBrains Mono', 'Consolas', monospace;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.content-body pre code {
+    background-color: transparent;
+    padding: 0;
+    color: #333;
+}
+
+/* 表格样式 */
+.content-body table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+    font-size: 14px;
+}
+
+.content-body th,
+.content-body td {
+    padding: 12px 16px;
+    text-align: left;
+    border: 1px solid #e9ecef;
+}
+
+.content-body th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+    color: #495057;
+}
+
+.content-body tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+/* 警告和提示框 */
+.content-body blockquote {
+    margin: 16px 0;
+    padding: 12px 16px;
+    border-left: 4px solid #1976d2;
+    background-color: #e3f2fd;
+    color: #333;
+}
+
+.content-body blockquote p {
+    margin: 0;
+}
+
+/* 强调样式 */
+.content-body strong {
+    font-weight: 600;
+    color: #212529;
+}
+
+.content-body em {
+    font-style: italic;
+    color: #6c757d;
+}
+
+/* 内容页脚 */
+.content-footer {
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid #e9ecef;
+    font-size: 12px;
+    color: #6c757d;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        border-right: none;
+        border-bottom: 1px solid #e9ecef;
+    }
+    
+    .sidebar-nav {
+        max-height: 300px;
+    }
+    
+    .main-content {
+        margin-left: 0;
+        padding: 20px;
+    }
+    
+    .content-header h1 {
+        font-size: 24px;
+    }
+    
+    .content-body h2 {
+        font-size: 20px;
+    }
+}
+
+/* 滚动条样式 */
+.sidebar::-webkit-scrollbar {
+    width: 6px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 3px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+    background: #a1a1a1;
+}
+
+/* 代码高亮 */
+.content-body pre code {
+    display: block;
+    overflow-x: auto;
+}
+
+/* 标签样式 */
+.content-body .tag {
+    display: inline-block;
+    padding: 2px 8px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 3px;
+    margin-right: 4px;
+}
+
+.tag-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.tag-warning {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.tag-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.tag-info {
+    background-color: #d1ecf1;
+    color: #0c5460;
+}
+
+/* 按钮样式 */
+.content-body .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.btn-primary {
+    background-color: #1976d2;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #1565c0;
+    text-decoration: none;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #545b62;
+    text-decoration: none;
+}
+
+/* 代码示例区域 */
+.code-example {
+    margin: 16px 0;
+    border: 1px solid #e9ecef;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.code-example-header {
+    background-color: #f8f9fa;
+    padding: 8px 16px;
+    border-bottom: 1px solid #e9ecef;
+    font-size: 12px;
+    font-weight: 600;
+    color: #495057;
+}
+
+.code-example-body {
+    padding: 0;
+}
+
+.code-example-body pre {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+}
+
+/* 步骤列表 */
+.steps {
+    counter-reset: step-counter;
+    list-style: none;
+    padding-left: 0;
+}
+
+.steps li {
+    counter-increment: step-counter;
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 24px;
+}
+
+.steps li::before {
+    content: counter(step-counter);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 28px;
+    height: 28px;
+    background-color: #1976d2;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* 特性卡片 */
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 24px 0;
+}
+
+.feature-card {
+    padding: 20px;
+    border: 1px solid #e9ecef;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+}
+
+.feature-card h4 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: #212529;
+}
+
+.feature-card p {
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #6c757d;
+}
+
+/* 设备状态标签 */
+.device-status {
+    display: inline-block;
+    padding: 4px 8px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 3px;
+}
+
+.status-supported {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.status-testing {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.status-planned {
+    background-color: #d1ecf1;
+    color: #0c5460;
+}
+
+/* 文件结构 */
+.file-tree {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 16px;
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 4px;
+}
+
+.file-tree ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.file-tree li {
+    margin-bottom: 4px;
+}
+
+.file-tree li::before {
+    content: "├── ";
+    color: #6c757d;
+}
+
+.file-tree li:last-child::before {
+    content: "└── ";
+}
+
+/* 页脚样式 */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 1px solid #e9ecef;
+    color: #6c757d;
+    font-size: 12px;
+}
