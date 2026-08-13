@@ -1,0 +1,44 @@
+# 编译产物
+ghostlock
+*.o
+*.elf
+
+# Windows 编译临时文件
+*.obj
+*.exp
+*.lib
+*.pdb
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 临时文件
+*.tmp
+*.bak
+*.swp
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE 文件
+.vscode/
+.idea/
+*.sublime-*
+*.code-workspace
+
+# 提取的内核文件
+extracted/
+*.img
+*.bin
+*.txt.kallsyms
+
+# 日志文件
+*.log
+
+# 编译响应文件（可选）
+# build.rsp
