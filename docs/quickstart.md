@@ -34,7 +34,7 @@ adb devices
 adb shell uname -r
 ```
 
-**重要：** 内核版本必须与 GhostLock 支持的版本匹配。查看 [支持的设备]({% link devices.md %}) 了解详情。
+**重要：** 内核版本必须与 GhostLock 支持的版本匹配。查看 [支持的设备]({{ '/devices' | relative_url }}) 了解详情。
 
 ## 步骤 3：推送并运行
 
@@ -81,8 +81,8 @@ getenforce
 
 **解决方案：**
 1. 检查内核版本：`adb shell uname -r`
-2. 查看 [支持的设备]({% link devices.md %}) 列表
-3. 如果你的设备不在列表中，参考 [添加新设备]({% link add-device.md %})
+2. 查看 [支持的设备]({{ '/devices' | relative_url }}) 列表
+3. 如果你的设备不在列表中，参考 [添加新设备]({{ '/add-device' | relative_url }})
 
 ### Q: exploit 卡住不动
 
@@ -115,6 +115,6 @@ adb push ghostlock /data/local/tmp/
 
 ## 下一步
 
-- [使用指南]({% link usage.md %}) - 详细了解如何使用 GhostLock
-- [漏洞分析]({% link vulnerability.md %}) - 深入了解漏洞原理
-- [设备支持]({% link devices.md %}) - 查看支持的设备列表
+- [使用指南]({{ '/usage' | relative_url }}) - 详细了解如何使用 GhostLock
+- [漏洞分析]({{ '/vulnerability' | relative_url }}) - 深入了解漏洞原理
+- [设备支持]({{ '/devices' | relative_url }}) - 查看支持的设备列表

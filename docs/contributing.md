@@ -177,7 +177,7 @@ def parse_btf(btf_data: bytes) -> dict:
 
 添加新设备支持的流程：
 
-1. 参考 [添加新设备]({% link add-device.md %}) 指南
+1. 参考 [添加新设备]({{ '/add-device' | relative_url }}) 指南
 2. 提取内核信息
 3. 创建设备条目
 4. 测试验证
@@ -249,9 +249,9 @@ adb shell /data/local/tmp/ghostlock --test
 ## 获取帮助
 
 - 在 [GitHub Issues](https://github.com/wzhdgithub/GhostLock/issues) 提问
-- 查看 [快速开始]({% link quickstart.md %})
-- 查看 [使用指南]({% link usage.md %})
-- 参考 [内部机制]({% link internals.md %})
+- 查看 [快速开始]({{ '/quickstart' | relative_url }})
+- 查看 [使用指南]({{ '/usage' | relative_url }})
+- 参考 [内部机制]({{ '/internals' | relative_url }})
 
 ## 致谢
 

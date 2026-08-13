@@ -482,6 +482,6 @@ struct kernel_offsets {
 
 ## 相关链接
 
-- [漏洞分析]({% link vulnerability.md %})
-- [利用原理]({% link exploitation.md %})
-- [设备支持]({% link devices.md %})
+- [漏洞分析]({{ '/vulnerability' | relative_url }})
+- [利用原理]({{ '/exploitation' | relative_url }})
+- [设备支持]({{ '/devices' | relative_url }})

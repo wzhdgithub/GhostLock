@@ -72,32 +72,32 @@ adb shell /data/local/tmp/ghostlock
 ## 相关链接
 
 - [GitHub 仓库](https://github.com/wzhdgithub/GhostLock)
-- [漏洞分析]({% link vulnerability.md %})
-- [利用原理]({% link exploitation.md %})
-- [使用指南]({% link usage.md %})
+- [漏洞分析]({{ '/vulnerability' | relative_url }})
+- [利用原理]({{ '/exploitation' | relative_url }})
+- [使用指南]({{ '/usage' | relative_url }})
 
 ## 完整文档
 
 ### 快速开始
 
-- [快速开始]({% link quickstart.md %}) - 5 分钟内开始使用 GhostLock
-- [编译指南]({% link compilation.md %}) - 从源代码编译 GhostLock
-- [工具脚本]({% link tools.md %}) - BTF 分析和 kallsyms 提取工具
+- [快速开始]({{ '/quickstart' | relative_url }}) - 5 分钟内开始使用 GhostLock
+- [编译指南]({{ '/compilation' | relative_url }}) - 从源代码编译 GhostLock
+- [工具脚本]({{ '/tools' | relative_url }}) - BTF 分析和 kallsyms 提取工具
 
 ### 技术文档
 
-- [漏洞分析]({% link vulnerability.md %}) - CVE-2026-43499 漏洞的详细分析
-- [利用原理]({% link exploitation.md %}) - 漏洞利用的技术原理
-- [内部机制]({% link internals.md %}) - GhostLock 内部工作原理
+- [漏洞分析]({{ '/vulnerability' | relative_url }}) - CVE-2026-43499 漏洞的详细分析
+- [利用原理]({{ '/exploitation' | relative_url }}) - 漏洞利用的技术原理
+- [内部机制]({{ '/internals' | relative_url }}) - GhostLock 内部工作原理
 
 ### 设备支持
 
-- [支持的设备]({% link devices.md %}) - 已适配的设备列表
-- [添加新设备]({% link add-device.md %}) - 为 GhostLock 添加新设备支持
+- [支持的设备]({{ '/devices' | relative_url }}) - 已适配的设备列表
+- [添加新设备]({{ '/add-device' | relative_url }}) - 为 GhostLock 添加新设备支持
 
 ### 社区
 
-- [贡献指南]({% link contributing.md %}) - 如何为项目做出贡献
-- [更新日志]({% link changelog.md %}) - 版本历史和更新记录
-- [安全政策]({% link security.md %}) - 安全漏洞报告指南
-- [行为准则]({% link code-of-conduct.md %}) - 社区行为规范
+- [贡献指南]({{ '/contributing' | relative_url }}) - 如何为项目做出贡献
+- [更新日志]({{ '/changelog' | relative_url }}) - 版本历史和更新记录
+- [安全政策]({{ '/security' | relative_url }}) - 安全漏洞报告指南
+- [行为准则]({{ '/code-of-conduct' | relative_url }}) - 社区行为规范

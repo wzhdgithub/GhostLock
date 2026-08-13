@@ -287,6 +287,6 @@ armv7a-linux-androideabi28-clang --target=armv7a-linux-androideabi28
 
 ## 相关链接
 
-- [快速开始]({% link quickstart.md %})
-- [工具脚本]({% link tools.md %})
-- [添加新设备]({% link add-device.md %})
+- [快速开始]({{ '/quickstart' | relative_url }})
+- [工具脚本]({{ '/tools' | relative_url }})
+- [添加新设备]({{ '/add-device' | relative_url }})

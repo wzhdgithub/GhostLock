@@ -55,6 +55,6 @@ description: GhostLock 项目的社区行为准则
 
 ## 相关链接
 
-- [贡献指南]({% link contributing.md %})
-- [安全政策]({% link security.md %})
-- [更新日志]({% link changelog.md %})
+- [贡献指南]({{ '/contributing' | relative_url }})
+- [安全政策]({{ '/security' | relative_url }})
+- [更新日志]({{ '/changelog' | relative_url }})

@@ -108,7 +108,7 @@ description: GhostLock 支持的设备列表和内核版本
 
 ## 如何添加新设备
 
-如果你的设备不在支持列表中，可以参考 [添加新设备]({% link add-device.md %}) 指南。
+如果你的设备不在支持列表中，可以参考 [添加新设备]({{ '/add-device' | relative_url }}) 指南。
 
 ## 请求设备支持
 
@@ -124,6 +124,6 @@ description: GhostLock 支持的设备列表和内核版本
 
 ## 相关链接
 
-- [添加新设备]({% link add-device.md %})
-- [编译指南]({% link compilation.md %})
-- [工具脚本]({% link tools.md %})
+- [添加新设备]({{ '/add-device' | relative_url }})
+- [编译指南]({{ '/compilation' | relative_url }})
+- [工具脚本]({{ '/tools' | relative_url }})
