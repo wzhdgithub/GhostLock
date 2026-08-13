@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 安全漏洞报告
+    url: mailto:yjhsbwssg@163.com
+    about: 如果你发现了安全漏洞，请通过邮件私下报告，不要在 Issues 中公开。
+  - name: 安全政策
+    url: https://github.com/wzhdgithub/GhostLock/blob/main/SECURITY.md
+    about: 查看我们的安全政策和负责任的披露指南。

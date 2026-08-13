@@ -1,0 +1,24 @@
+theme: jekyll-theme-cayman
+
+title: GhostLock
+description: CVE-2026-43499 futex PI stack UAF 本地提权漏洞利用
+
+baseurl: "/GhostLock"
+url: "https://wzhdgithub.github.io"
+
+# 构建设置
+markdown: kramdown
+highlighter: rouge
+
+# 插件
+plugins:
+  - jekyll-seo-tag
+
+# 导航
+navigation:
+  - title: 首页
+    url: /
+  - title: 文档
+    url: /README
+  - title: GitHub
+    url: https://github.com/wzhdgithub/GhostLock
