@@ -132,3 +132,9 @@
 - 遵守社区 guidelines
 
 感谢你的贡献！
+
+---
+
+**作者：** wzh  
+**联系：** yjhsbwssg@163.com  
+**项目：** https://github.com/wzhdgithub/GhostLock

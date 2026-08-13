@@ -6,7 +6,7 @@
 
 ### 报告方式
 
-1. **电子邮件：** security@example.com
+1. **电子邮件：** yjhsbwssg@163.com
 2. **PGP 加密：** 使用提供的 PGP 密钥加密报告
 
 ### 报告内容
@@ -70,6 +70,6 @@
 ## 联系方式
 
 - **安全邮箱：** security@example.com
-- **项目主页：** https://github.com/your-repo/GhostLock
+- **项目主页：** https://github.com/wzhdgithub/GhostLock
 
 感谢你帮助我们保持项目的安全！

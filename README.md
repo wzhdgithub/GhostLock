@@ -331,7 +331,7 @@ adb shell dmesg | tail -50
 ## 相关资源
 
 - [CVE-2026-43499 详情](https://nvd.nist.gov/vuln/detail/CVE-2026-43499)
-- [GhostLock 原始研究](https://github.com/your-repo)
+- [GhostLock 原始研究](https://github.com/wzhdgithub/GhostLock)
 - [Android GKI 内核](https://source.android.com/docs/core/architecture/kernel/generic-kernel-image)
 
 ## 许可证
@@ -347,5 +347,5 @@ adb shell dmesg | tail -50
 ---
 
 **最后更新：** 2026年8月13日  
-**作者：** Security Research Team  
-**联系：** your-email@example.com
+**作者：** wzh  
+**联系：** yjhsbwssg@163.com
